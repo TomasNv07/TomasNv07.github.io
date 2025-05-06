@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Lomake</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="tyyli.css" type="text/css">
+</head>
+<body>
+     <a href="index.html"><h1 id="takaisin"> < Takaisin </h1></a>
+    <table>
+    <img src="yes.png" alt="">
+    <h1>Ota yhtettä</h1>
+    <form action="#" method="post">
+        <label for="nimi">Nimi:</label><br>
+        <input type="text" id="nimi" name="nimi" required> <br><br>
+        
+        <label for="sukunimi">Sukunimi:</label><br>
+        <input type="text" id="sukunimi" name="sukunimi" required> <br><br>
+
+        <label for="viesti">Viesti:</label><br>
+        <textarea id="viesti" name="viesti" rows="4" cols="50"></textarea><br><br>
+
+        <button onclick="document.getElementById('viesti').value = ''" type="button"> Lähetä</button>
+    </form>
+    </table>
+</body>
+</html>

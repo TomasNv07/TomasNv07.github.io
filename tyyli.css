@@ -1,0 +1,51 @@
+body{
+    background-color: #404040;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+h1{
+    color: #fff898;
+    text-align: center;
+}
+input {
+    background-color: #ffffff;
+    width: 400px;
+    font-size: 20px;
+}
+label{
+    color: white;
+}
+button
+{
+    width: 410px;
+    height: 40px;
+    background-color: #fff898;
+    
+}
+#viesti{
+    width: 400px;
+    height: 100px;
+    text-align: left;
+    font-size: 15px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 100px;
+    max-height: 300px;
+}
+#takaisin{
+    text-align: left;
+}
+#takaisin:hover{
+    text-decoration: underline;
+    color: #fff898;
+}
+table{
+margin-right: auto;
+margin-left: auto;
+}
+a {
+    color: #404040;
+}
