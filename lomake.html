@@ -9,20 +9,22 @@
 <body>
      <a href="index.html"><h1 id="takaisin"> < Takaisin </h1></a>
     <table>
-    <img src="yes.png" alt="">
     <h1>Ota yhtettä</h1>
-    <form action="#" method="post">
-        <label for="nimi">Nimi:</label><br>
-        <input type="text" id="nimi" name="nimi" required> <br><br>
-        
-        <label for="sukunimi">Sukunimi:</label><br>
-        <input type="text" id="sukunimi" name="sukunimi" required> <br><br>
-
-        <label for="viesti">Viesti:</label><br>
-        <textarea id="viesti" name="viesti" rows="4" cols="50"></textarea><br><br>
-
-        <button onclick="document.getElementById('viesti').value = ''" type="button"> Lähetä</button>
-    </form>
+    <!--Lähettää viestin minun sähköpostiin formspreen kautta -->
+    <form
+  action="https://formspree.io/f/mwpoqpwa"
+  method="POST"
+>
+  <label>
+    Your email: <br>
+    <input type="email" name="email" placeholder="Sähköposti" required>
+  </label> <br><br>
+  <label>
+    Your message: <br>
+    <textarea name="message" rows="4" cols="50"  placeholder="Viesti" required></textarea>
+  </label> <br> <br>
+  <button type="submit">Send</button>
+</form>
     </table>
 </body>
 </html>
