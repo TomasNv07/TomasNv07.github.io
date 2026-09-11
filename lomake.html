@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 <head>
-    <meta charset='utf-8'>
-    <title>Lomake</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="tyyli.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Ota yhteyttä — Tomas Nevantie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <a href="index.html"><h1 id="takaisin"> < Takaisin </h1></a>
-    <table>
-    <h1>Ota yhtettä</h1>
-    <!--Lähettää viestin minun sähköpostiin formspreen kautta -->
-    <form
-  action="https://formspree.io/f/mwpoqpwa"
-  method="POST"
->
-  <label>
-    Your email: <br>
-    <input type="email" name="email" placeholder="Sähköposti" required>
-  </label> <br><br>
-  <label>
-    Your message: <br>
-    <textarea name="message" rows="4" cols="50"  placeholder="Viesti" required></textarea>
-  </label> <br> <br>
-  <button type="submit">Send</button>
-</form>
-    </table>
+    <div class="all">
+        <header>
+            <nav>
+                <a href="index.php">Etusivu</a>
+                <a href="lomake.html">Ota yhteyttä</a>
+                <a href="https://github.com/TomasNv07/">Github</a>
+            </nav>
+        </header>
+
+        <div class="lomake-otsikko">Ota yhteyttä</div>
+
+        <div class="lomake-wrap">
+            <div class="lomake-kortti">
+                <!-- Lähettää viestin sähköpostiin Formspreen kautta -->
+                <form action="https://formspree.io/f/mwpoqpwa" method="POST">
+                    <label for="email">Sähköposti</label>
+                    <input type="email" id="email" name="email" placeholder="oma.sahkoposti@example.com" required>
+
+                    <label for="message">Viesti</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Kirjoita viestisi tähän..." required></textarea>
+
+                    <button type="submit">Lähetä</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2026 Tomas Nevantie — <a href="https://github.com/TomasNv07/">github.com/TomasNv07</a>
+        </footer>
+    </div>
 </body>
 </html>

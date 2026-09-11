@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Tomas Nevantie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <header>
+            <nav>
+                <a href="index.php">Etusivu</a>
+                <a href="lomake.html">Ota yhteyttä</a>
+                <a href="https://github.com/TomasNv07/">Github</a>
+            </nav>
+        </header>
+
+        <div class="tomasnevantie">
+            <h1 class="tomasnevantie">TOMAS NEVANTIE</h1>
+        </div>
+
+        <div class="profiilikuva-wrap">
+            <img class="kuva" src="kuva.png" alt="Tomas Nevantie">
+        </div>
+
+        <div class="sisalto-tausta">
+        <div class="sisalto">
+
+            <section class="osio">
+                <h2>Minusta</h2>
+                <p>
+                    Opiskelen ohjelmistokehitystä
+                </p>
+                <p>
+                    Viimeisellä vuodella Tieto- ja viestintätekniikka alalla
+                </p>
+                <p>
+                    Innokas oppimaan uutta
+                </p>
+            </section>
+
+            <section class="osio">
+                <h2>Taidot</h2>
+                <div class="tagit">
+                    <span class="tagi">SQL</span>
+                    <span class="tagi">API</span>
+                    <span class="tagi">C#</span>
+                    <span class="tagi">HTML</span>
+                    <span class="tagi">PHP</span>
+                    <span class="tagi">CSS</span>
+                    <span class="tagi">JS</span>
+                </div>
+            </section>
+
+            <section class="osio">
+                <h2>Sovellukset</h2>
+                <div class="tagit">
+                    <span class="tagi">phpMyAdmin</span>
+                    <span class="tagi">VS Code</span>
+                    <span class="tagi">GitHub</span>
+                    <span class="tagi">Docker</span>
+                    <span class="tagi">WordPress</span>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="sisalto sisalto-leveampi">
+
+            <section class="osio">
+                <h2>Projektit</h2>
+                <div class="projektit-ruudukko">
+                    <a href="https://www.fysioterapiakouluttajat.fi/">
+                    <div class="projekti-kortti">
+                        <div class="projekti-kuva">
+                            <img src="fsk.png" alt="Suomen fysioterapiakouluttajat ry:n verkkosivu">
+                        </div>
+                        <div class="projekti-teksti">
+                            <h3>Suomen fysioterapiakouluttajat</h3>
+                            <p>
+                                Yhdistykselle toteutettu WordPress-sivusto,
+                                joka esittelee yhdistyksen toimintaa,
+                                ajankohtaiset uutiset ja jäsenyystiedot.
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href="https://tvt-linux.tvtedu.fi/~213611/Puhelinverkkokauppa/">
+
+
+                        <div class="projekti-kortti">
+                            <div class="projekti-kuva">
+                                <img src="puhverkkokauppa.png" alt="PhoneShop-verkkokaupan tuotelistaus">
+                            </div>
+                            <div class="projekti-teksti">
+                                <h3>PhoneShop</h3>
+                                <p>
+                                    Harjoitustyönä tehty puhelinten
+                                    verkkokauppademo. Sisältää tuotelistauksen,
+                                    hakutoiminnon sekä kirjautumis- ja
+                                    rekisteröitymisnäkymät.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                        <a href="https://tvt-linux.tvtedu.fi/~213611/Saapalvelu/ennuste.php">
+
+                        <div class="projekti-kortti">
+                            <div class="projekti-kuva">
+                                <img src="saapalvelu.png" alt="Sää ennuste -palvelun näkymä" >
+                            </div>
+                            <div class="projekti-teksti">
+                                <h3>Sää ennuste</h3>
+                                <p>
+                                    Sääpalvelusivusto, joka näyttää valitun
+                                    kaupungin sääennusteen usealle päivälle
+                                    taulukkomuodossa, mukaan lukien lämpötilat,
+                                    sademäärän ja tuulen.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+        </div>
+        </div>
+
+        <footer>
+            &copy; 2026 Tomas Nevantie — <a href="https://github.com/TomasNv07/">github.com/TomasNv07</a>
+        </footer>
+    </div>
+</body>
+</html>
